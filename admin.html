@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+
+<main class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">专业管理系统</h1>
+            <p class="lead">管理员中心</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                   aria-controls="v-pills-home" aria-selected="true">专业列表</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                   aria-controls="v-pills-profile" aria-selected="false">添加专业</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                   aria-controls="v-pills-messages" aria-selected="false">用户权限管理</a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                     aria-labelledby="v-pills-home-tab">
+
+                    <div class="input-group mb-3 row">
+                        <!-- search bar start -->
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">查找条件</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1">按学院超查找</option>
+                            <option value="2">按专业查找</option>
+                        </select>
+
+                        <input type="text" class="form-control" placeholder="输入搜索内容"
+                               aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">搜索</button>
+                        </div>
+                        <!-- search bar end -->
+
+                    </div>
+
+                    <h5>所有专业</h5>
+
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">学院</th>
+                                <th scope="col">专业</th>
+                                <th scope="col">招生情况</th>
+                                <th scope="col">毕业生就业情况</th>
+                                <th scope="col">教学质量</th>
+                                <th scope="col">专业建设文件</th>
+                                <th scope="col">上传日期</th>
+                                <th scope="col">备注</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>软件学院</td>
+                                <td>软件工程</td>
+                                <td>良好</td>
+                                <td>优秀</td>
+                                <td>优秀</td>
+                                <td>软件学院.zip</td>
+                                <td>2019-1-1</td>
+                                <td>压缩包</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- pagination start -->
+                    <div class="row">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- pagination end -->
+
+
+
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">学院</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例子:计算机与信息学院">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">专业</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:计算机科学与技术">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">招生情况</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">毕业生就业情况</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">教学质量</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">学院</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">学院</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">备注</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="例如:...">
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<script>
+    vm = new Vue({
+        el:
+    })
+
+</script>
+</body>
+</html>
